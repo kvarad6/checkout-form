@@ -5,7 +5,7 @@ import Form from './Form';
 function App() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <Form />
     </>
   );

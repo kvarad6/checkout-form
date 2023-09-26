@@ -114,15 +114,17 @@ const LinearStepper = () => {
     }, [errors])
 
     return (
-        <Box >
-            <Typography align='center' sx={{ fontSize: 40, mb: 3 }}>Checkout</Typography>
-            <Stepper activeStep={activeStep}>
+        <Box>
+            <Typography align='center' sx={{ fontSize: { xs: 20, md: 30, lg: 40 }, mb: 3 }}>Checkout</Typography>
+            <Stepper activeStep={activeStep} alternativeLabel>
                 {
                     steps.map((step, index) => {
                         return (
-                            <Step>
+                            <Step >
                                 <StepLabel>
-                                    {step}
+                                    <Typography sx={{ fontSize: { xs: 11, md: 12, lg: 13 } }}>
+                                        {step}
+                                    </Typography>
                                 </StepLabel>
                             </Step>
                         )
