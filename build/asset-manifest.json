@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/checkout-form/static/css/main.073c9b0a.css",
+    "main.js": "/checkout-form/static/js/main.e13cf97d.js",
+    "static/js/787.46c3cb31.chunk.js": "/checkout-form/static/js/787.46c3cb31.chunk.js",
+    "index.html": "/checkout-form/index.html",
+    "main.073c9b0a.css.map": "/checkout-form/static/css/main.073c9b0a.css.map",
+    "main.e13cf97d.js.map": "/checkout-form/static/js/main.e13cf97d.js.map",
+    "787.46c3cb31.chunk.js.map": "/checkout-form/static/js/787.46c3cb31.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.e13cf97d.js"
+  ]
+}
